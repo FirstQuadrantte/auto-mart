@@ -1,52 +1,118 @@
 
+* {
+box-sizing: border-box;
+}
+
+
+
 body {
+
   margin: 0;
-  font-family: "Lucida Grande";
+
+  font-family: "Lucida Grande","eras demi itc";
+
   background-color:#1b294c;
   color:white;
 }
+
+
+
 .container {
+
   max-width: 1170px;
+
   width: 100%;
+
   padding: 0 15px;
+
   margin: 0 auto;
+
 }
+
 .top-wrapper {
+
   padding: 180px 0 100px 0;
+
   background-image: url(https://pixabay.com/photos/car-dashboard-speedometer-speed-car-2667434/);
+
   background-size: cover;
+
   color: white;
+
   text-align: center;
+  height:
+
 }
+.btn{
+
+  background-color: yellow;
+  padding: 12px 24px;
+
+  color: #1b294c;
+
+  display: inline-block;
+
+  opacity: 0.9;
+
+  border-radius: 4px;
+
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover {
+
+  opacity: 1;
+
+  color: blue;
+}
+
 nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Arial', 'Sans-Serif';
     position: absolute;
-    top: 50px;
-    left: 220px;
-    margin: 10px auto;
+    top: 80px;
+    left: 280px;
+    margin: 30px auto;
     padding-top: 5px;
     list-style: none;
     font-weight: bold;
-    color: white;
+  
+    
 }
 nav ul li {
     background-color: white;
     display: inline;
     padding: 20px;
-    margin: 0;
 }
 nav ul li:hover {
  color: white;
+
 }
 a {
      text-decoration: none;
 }
 .header-left{
+
+
+
   float: left;
 }
+
+.header-right {
+  float: right;
+
+  margin-top:10px;
+  margin-right: -25px;
+
+}
+ 
+
 .logo {
+
+  font-family:elephant;
   font-size: 2em;
   width: 124px;
-  margin-top: 20px;
-  margin-left: 10px;
-}Create styles
+
+  margin-top: 0px;
+
+  margin-left: 0px;
+}

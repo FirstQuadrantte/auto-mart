@@ -66,16 +66,26 @@ body {
   color: blue;
 }
 
+.nav-wrapper {
+ background-color: white; 
+ width: 70%;
+ height: 13%;
+ position: absolute;
+ top: 80px;
+ left: 280px;
+}
+
 nav ul {
     font-family:'Arial', 'Sans-Serif';
-    position: absolute;
-    top: 80px;
-    left: 280px;
+    position: relative;
+    top: 5px;
+    left: 120px;
+    z-index: 10;
     margin: 30px auto;
     padding-top: 5px;
     list-style: none;
     font-weight: bold;
-  
+    width:100%;
     
 }
 nav ul li {
@@ -98,6 +108,7 @@ a {
 }
 
 .header-right {
+
   float: right;
 
   margin-top:10px;
@@ -115,4 +126,14 @@ a {
   margin-top: 0px;
 
   margin-left: 0px;
+}
+
+footer {
+text-align: center;
+margin-bottom: 10px;
+}
+
+footer li{
+ list-style: none;
+ margin-bottom: 10px;
 }
